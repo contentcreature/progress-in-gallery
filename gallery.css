@@ -6,32 +6,46 @@ html, body{
 
 header{
 	background-color:#f3d8e5;
-	padding: 40px;
+	background-image: url('IMG_3268.jpg');
+	background-size: 80px;
+	background-repeat: repeat;
+	padding: 20px;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 h1{
 	font-size: 90px;
-	color: black;
+	color: white;
+	text-shadow: 0 4px 20px purple;
 }
 
 header img{
 	width: 300px;
 	border: 10px solid #ffffff; 
+	box-shadow: 0 10px 20px; 
 }
 
-.content{
-	max-width:900px;
-	margin: 0 auto;
-	padding: 0 20px;
-} 
+h2{
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: bold; 
+	padding-top: 20px;
+	font-size: 60px;
+
+}
+
+p{
+	font-size: 30px;
+}
 
 img.big-image{
 	max-width: 100%;
+	padding-top: 20px;
 }
 
 p.caption{
-	font-size:16px;
+	font-size: 20px;
 	color: lightgrey;
 	font-style: italic;
 }
@@ -40,17 +54,17 @@ ul{
 	list-style: none;
 	padding: 0;
 	margin: 0;
+	font-size: 30px;
 }
 
 a{
-	color: purple;
+	color:#ffffb3;
 	text-decoration: none;
 }
 
 footer{
-	margin-top: 20px;
 	padding: 20px;
-	background-color: #f2f2f2;
+	background-color:#b3b3b3;
 }
 
 footer ul{text-align: center;
@@ -60,6 +74,18 @@ footer ul li{
 	display: inline-block;
 	margin: 0 5px;
 }
+
+
+
+.content{
+	background-color: violet;
+	padding: 20px;
+	text-align: center;
+	
+
+} 
+
+
 /*<header>
 		<img src="images/profile.png">
 		<h1> Gallery in Progress </h1>
