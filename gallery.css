@@ -6,33 +6,58 @@ html, body{
 
 header{
 	background-color:#f3d8e5;
-	background-image: url('IMG_3268.jpg');
-	background-size: 80px;
+	background-image: url('IMG_5418.jpg');
+	background-size: 200px;
 	background-repeat: repeat;
-	padding: 20px;
+	padding: 60px;
 	text-align: center;
 	text-transform: uppercase;
 }
 
+.about{
+	padding: 20px;
+}
+
+.border{
+	border-style: double;
+	border-width: thick;
+	text-align: justify;
+	padding: 10px;
+
+}
+
 h1{
-	font-size: 90px;
+	font-size: 120px;
 	color: white;
-	text-shadow: 0 4px 20px purple;
+	text-shadow: 0 25px 20px purple;
 }
 
 header img{
-	width: 300px;
-	border: 10px solid #ffffff; 
+	width: 100px;
+	border: 5px solid #ffffff; 
 	box-shadow: 0 10px 20px; 
+}
+
+.content{
+	background-color: violet;
+	padding: 20px;
+	text-align: center;
+
 }
 
 h2{
 	text-align: center;
 	text-transform: uppercase;
 	text-decoration: bold; 
+	font-size: 60px;
+}
+
+h3{
+	text-align: center;
+	color:white;
+	text-decoration: bold;
 	padding-top: 20px;
 	font-size: 60px;
-
 }
 
 p{
@@ -54,7 +79,7 @@ ul{
 	list-style: none;
 	padding: 0;
 	margin: 0;
-	font-size: 30px;
+	font-size: 20px;
 }
 
 a{
@@ -62,28 +87,48 @@ a{
 	text-decoration: none;
 }
 
-footer{
+
+img.mine{
+	max-width: 50%;
+	align-content: center,
 	padding: 20px;
-	background-color:#b3b3b3;
+	
+
 }
 
-footer ul{text-align: center;
+
+	
+.mycontent{
+	padding: 20px;
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	background-image: url(gallery.jpg);
+	background-size:500px;
+	background-repeat: repeat;
+
+}
+
+p.mycontent{
+	background-color: white;
+	padding: 60px;
+	color: white;
+}
+
+footer{
+	padding: 20px;
+	background-color:#f2f2f2;
+}
+
+footer ul{
+	text-align: center;
+	font-weight: bold;
 }
 
 footer ul li{
 	display: inline-block;
 	margin: 0 5px;
 }
-
-
-
-.content{
-	background-color: violet;
-	padding: 20px;
-	text-align: center;
-	
-
-} 
 
 
 /*<header>
