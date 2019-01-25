@@ -96,6 +96,12 @@ img.mine{
 
 }
 
+video.mine{
+	max-width: 50%;
+	align-content: center,
+	padding: 20px;
+	
+}
 
 	
 .mycontent{
@@ -108,6 +114,8 @@ img.mine{
 	background-repeat: repeat;
 
 }
+
+
 
 p.mycontent{
 	background-color: white;
@@ -123,6 +131,7 @@ footer{
 footer ul{
 	text-align: center;
 	font-weight: bold;
+	font-size: 20px
 }
 
 footer ul li{
