@@ -15,8 +15,11 @@ header{
 }
 
 .about{
-	padding: 20px;
+	padding: 100px;
 	text-align: center;
+
+
+	
 }
 
 .border{
@@ -43,6 +46,11 @@ header img{
 	background-color: violet;
 	padding: 20px;
 	text-align: center;
+	float:left;
+	width:175%;
+	overflow: scroll;
+
+
 
 }
 
@@ -66,8 +74,10 @@ p{
 }
 
 img.big-image{
-	max-width: 100%;
+	max-width: 50%;
 	padding-top: 20px;
+	overflow: scroll;
+	margin-right: 5px;
 }
 
 p.caption{
@@ -112,6 +122,9 @@ video.mine{
 	background-image: url(gallery.jpg);
 	background-size:500px;
 	background-repeat: repeat;
+	float: left;
+	width:100%;
+	overflow: scroll;
 
 }
 
@@ -124,14 +137,19 @@ p.mycontent{
 }
 
 footer{
+	content: "";
+  display: table;
+  clear: both;
 	padding: 20px;
 	background-color:#cccccc;
+	border-style: solid;
+	text-align:center;
 }
 
 footer ul{
 	text-align: center;
 	font-weight: bold;
-	font-size: 20px
+	font-size: 20px;
 }
 
 footer ul li{
